@@ -11,7 +11,7 @@ class Anagram
     array.each do |word|
       letters = word.split(//).sort
         if @@word.split(//).sort == letters
-          @@match.push(word)
+          @@match << word
         else
         end
     end
