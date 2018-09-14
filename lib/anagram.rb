@@ -13,7 +13,7 @@ class Anagram
         if @@word.split(//).sort == letters
           @@match << word
         end
-    end
+      end
     @@match
   end
 
