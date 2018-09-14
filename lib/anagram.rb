@@ -12,7 +12,6 @@ class Anagram
       letters = word.split(//).sort
         if @@word.split(//).sort == letters
           @@match << word
-        else
         end
     end
     @@match
